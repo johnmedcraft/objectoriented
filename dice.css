@@ -1,0 +1,102 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+button {
+  background-color: rgb(82, 186, 179);
+  border-radius: 6px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-transform: uppercase;
+  width: 200px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+body {
+  background-color: #9cbed8;
+}
+#placeholder {
+  height: 100px;
+  width: 100px;
+  padding: 50px;
+  margin: 50px auto;
+  border: 1px solid gray;
+  border-radius: 10px;  
+  font-size:100px;
+  background-color: white;
+}
+.die.one .dot { 
+  box-shadow: 0 .2em 0 #FFF 
+}
+.die.two .dot { 
+  background: transparent;
+  box-shadow: -2.3em -2.3em 0 #345, 
+         2.3em  2.3em 0 #345, 
+        -2.3em -2.3em 0 #FFF, 
+         2.3em  2.4em 0 #FFF 
+}
+.die.three .dot { 
+  box-shadow: -2.3em -2.3em 0 #345, 
+         2.3em  2.3em 0 #345, 
+        -2.3em -2.3em 0 #FFF, 
+         2.3em  2.4em 0 #FFF, 
+             0   .2em 0 #FFF 
+}
+.die.four .dot { 
+  background: transparent;
+        box-shadow: -2.3em -2.3em 0 #345, 
+               2.3em  2.3em 0 #345, 
+              -2.3em  2.3em 0 #345, 
+               2.3em -2.3em 0 #345, 
+              -2.3em -2.3em 0 #FFF, 
+               2.3em  2.4em 0 #FFF, 
+              -2.3em  2.4em 0 #FFF, 
+               2.3em -2.3em 0 #FFF 
+}
+.die.five .dot { 
+  box-shadow: -2.3em -2.3em 0 #345, 
+         2.3em  2.3em 0 #345, 
+        -2.3em  2.3em 0 #345, 
+         2.3em -2.3em 0 #345, 
+        -2.3em -2.2em 0 #FFF, 
+         2.3em -2.2em 0 #FFF, 
+         2.3em  2.4em 0 #FFF, 
+        -2.3em  2.4em 0 #FFF,
+             0   .2em 0 #FFF 
+}
+.die.six .dot {
+  background: transparent;
+  box-shadow: -2.3em -2.3em 0 #345,
+        -2.3em      0 0 #345,
+        -2.3em  2.3em 0 #345,
+         2.3em -2.3em 0 #345,
+         2.3em      0 0 #345,
+         2.3em  2.3em 0 #345,
+        -2.3em -2.1em 0 #FFF,
+        -2.3em   .2em 0 #FFF,
+        -2.3em  2.4em 0 #FFF,
+         2.3em  2.4em 0 #FFF,
+         2.3em   .2em 0 #FFF,
+         2.3em -2.1em 0 #FFF
+}
+.die {
+  height: 100px;
+  width: 100px;
+  margin: auto;  
+  border-radius: 10px;
+  position: relative;
+  font-size: 6px;
+  display: inline-block;
+}
+.dot {
+  width: 20%; 
+  height: 20%; 
+  left: 20%; 
+  top: 20%;
+  background: #345;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+body { text-align: center }
